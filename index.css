@@ -1,0 +1,262 @@
+
+html {
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-color: rgb(255,255,255);
+    font-family: 'Messina Sans Lumi',-apple-system,BlinkMacSystemFont,Roboto,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+body{
+    margin: 0;
+}
+
+/* All-around uses */
+
+h1 {
+    font-family: 'Messina Sans Lumi',-apple-system,BlinkMacSystemFont,Roboto,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    text-align: center;
+    font-weight: 300;
+}
+
+p {
+    font-family: 'Messina Sans Lumi',-apple-system,BlinkMacSystemFont,Roboto,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    color: rgb(51,51,51);
+    word-break: break-word;
+    font-size: 18px;
+}
+
+hr {
+    width: 10%;
+}
+
+.bold {
+    font-weight: bold;
+}
+/* =========================== */
+
+/* Header */
+.title-background-wrapper {
+    padding: 0;
+}
+
+header{
+    margin-top: 1em;
+}
+
+.title {
+    margin: 1em auto;
+    text-align: center;
+}
+
+.text-wrapper {
+    padding: 5px 0;
+    margin: 20px 0;
+}
+
+.lumi-logo {
+    width: 100px;
+}
+
+.headline {
+    font-size: 4rem;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: -.015em;
+}
+
+.learn-more {
+    border: 1px solid #0044e4;
+    border-radius: 4px;
+    white-space: nowrap;
+    font-weight: 400;
+    font-size: 1em;
+    padding: .7em 1.6em .8em;
+    color: white;
+    background: rgb(0, 68, 228);
+    text-decoration: none;
+}
+
+.learn-more:hover {
+    background: rgb(0, 46, 153)
+}
+
+.name {
+    font-weight: 400;
+    margin: 5px;
+}
+
+.job-title{
+    margin: 10px 0;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 5px 8px;
+    color: #898884;
+    font-size: 16px;
+    transition: transform .4s;
+}
+
+li:hover {
+    transform: scale(1.1);
+    color: black;
+}
+
+li:active{
+    color: lightgrey;
+}
+
+.bio-section {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.bio-wrapper{
+    text-align: center;
+}
+
+.badge {
+    text-align: center;
+}
+
+/* ====================== */
+
+.img-page-breaker {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 40px;
+}
+
+/* Project Section */
+.project-headline {
+    font-size: 2.5em;
+    font-weight: 400;
+}
+
+.white {
+    color: white;
+}
+
+.black-font {
+    color: #232220;
+}
+.tech-used {
+    font-weight: 500;
+    color: rgb(21,138,208)
+}
+
+section {
+    margin: 50px auto;
+    max-width: 1000px;
+    display: flex;
+    border: 1px solid #f7f6f5;
+    background-color: #f7f6f5;
+}
+
+.image-section{
+    flex: .53;
+    transition: transform .4s;
+}
+
+.image-section:hover {
+    transform: scale(1.01)
+}
+
+img {
+    width: 100%;
+}
+
+.desc-section{
+    flex: 0.47;
+    padding: 5px;
+}
+
+.desc-wrapper {
+    padding: 20px 0;
+    text-align: center;
+    justify-self: center;
+}
+
+.desc-wrapper > h1 {
+    text-align: center;
+    font-weight: 400;
+    margin: 0;
+}
+
+.map-location {
+    background-image: url('./img/map-location.png');
+    background-repeat: no-repeat;
+    background-position:left top;
+}
+
+.invit-ims{
+    background-image: url('./img/invit-ims.png');
+    background-repeat: no-repeat;
+    background-position:left top;
+}
+
+.coteam-img {
+    background-image: url('./img/group.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.white {
+    color: white;
+}
+
+.github-link {
+    white-space: nowrap;
+    text-decoration: none;
+    text-align: center;
+    margin: 2px;
+    color: #0044e4;
+}
+
+.github-link:hover {
+    color: rgb(0, 46, 153)
+}
+/* ================== */
+
+/* Contact Form */
+.contact-background-wrapper {
+    padding: 25px 0 0 0;
+}
+
+.contact-form{
+    text-align: center;
+    margin: 5px auto;
+}
+
+#contact-form > h1 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+}
+/* ========================= */
+
+/* Footer */
+
+footer {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(51, 51,51);
+    text-align: center;
+}
+
+footer > p {
+    font-size: 14px;
+    padding-top: 15px;
+    color: white;
+}
+
+
+
+
